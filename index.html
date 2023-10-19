@@ -5,24 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon fight</title>
+    <link rel="stylesheet" href="page2.css">
 </head>
 
 <body>
-    < ! -- the top of the page -->
-        <header>
-            <h1>Battle</h1>
-            <nav>
-                <h4>HOME</h4>
-            </nav>
-        </header>
-        <main>
-            <img src="pkm fighter img" alt="">
-            <img src="pkm losers img" alt="">
-            <button></button>
-            <button></button><br>
-            <button></button>
-            <button></button>
-        </main>
+    <!--the top of the page-->
+    <header>
+        <h1>Battle</h1>
+        <nav>
+            <h4 id="Home"><a href="Acceuil.html">Home</a></h4>
+        </nav>
+    </header>
+    <main>
+        <img src="pkm fighter img" alt="">
+        <input type="range" id="fighterlife" min="0" max="100" value="60" step="1">
+        <!--This bar is gonna be used to put some life point to the pokemons and we can connect it to the
+            javascript tabl-->
+        <img src="pkm losers img" alt="">
+        <input type="range" id="Loserslife" min="0" max="100" value="60" step="1"><br>
+        <!-- and this one is for losers life point -->
+        <div>
+            <button id="Attack">Attack</button>
+            <button id="Action">Action</button><br>
+            <button id="ItemsButton">Item</button>
+            <button id="RunAway">Run Away</button>
+        </div>
+    </main>
 </body>
 
 </html>
