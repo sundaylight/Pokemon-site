@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+
+.pokeball {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#poke1, #poke2, #poke3 {
+    height: 250px;
+    width: 250px;
+    background: url('./pokeball.png');
+    background-repeat: no-repeat;
+}
+
+
+#poke1:hover, #poke2:hover, #poke3:hover {
+    background: url('pokeball-open.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 230px;
+    width: 230px;
+}
+
+.imagevide {
+    
+    background: url ('whitescreen.png');
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}   
+#imagevide1 {
+    height: 500px;
+    width: 500px;
+}
